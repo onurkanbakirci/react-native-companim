@@ -1,4 +1,4 @@
-Installation 
+## Installation 
 
 `npm i react-native-companim` 
 
@@ -20,15 +20,15 @@ Installation
 
  
 
-Usage
+# Usage
 
 ## MultiplyButton
 
 
 ```
 import React from 'react'
-import {Card,MultiplyButton,BounceButton,RotateButton, FadeButton,ScaleButton} from './src/index'
-import {View,Text, Button} from "react-native"
+import {MultiplyButton} from 'react-native-companim'
+import {View} from "react-native"
 
 export default class App extends React.Component{
 
@@ -84,6 +84,7 @@ Code explanation:
 ```
 import React from 'react'
 import {Card} from 'react-native-companim'
+import {View} from "react-native"
 
 const data = [1,2,3,4,5,6]//it is added just for map function.Not important!
 
@@ -135,6 +136,7 @@ Code explanation:
 
 import React from 'react'
 import {BounceButton} from 'react-native-companim'
+import {View} from "react-native"
 
 export default class App extends React.Component{
 
@@ -174,7 +176,8 @@ Code explanation:
  ```
 
 import React from 'react'
-import {BounceButton} from 'react-native-companim'
+import {FadeButton} from 'react-native-companim'
+import {View} from "react-native"
 
 export default class App extends React.Component{
 
@@ -210,6 +213,7 @@ Code explanation:
 
 import React from 'react'
 import {RotateButton} from 'react-native-companim'
+import {View} from "react-native"
 
 export default class App extends React.Component{
 
@@ -252,6 +256,7 @@ export default class App extends React.Component{
 
 import React from 'react'
 import {ScaleButton} from 'react-native-companim'
+import {View} from "react-native"
 
 export default class App extends React.Component{
 
@@ -282,6 +287,8 @@ export default class App extends React.Component{
 
 
 ## CircleIndicator
+
+<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:166.54%;position:relative;"><iframe width="260" height="433" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/43gegw"></iframe></div><p><a href="https://imgflip.com/gif/43gegw">via Imgflip</a></p></div><br/>
 
  ```
 
