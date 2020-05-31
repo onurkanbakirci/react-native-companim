@@ -3,20 +3,20 @@ Installation
 `npm i react-native-companim` 
 
 
- Components Animated
+ ## Components Animated
 
- --MultiplyButton
- --FadeButton
- --RotateButton
- --BounceButton
- --ScaleButton
- --Card
- --CircleIndicator
- --MultiplyIndicator
- --RotateIndicator
- --ScaleIndicator
- --SequentIndicator
- --SuddenIndicator
+ - MultiplyButton<br/>
+ - FadeButton<br/>
+ - RotateButton<br/>
+ - BounceButton<br/>
+ - ScaleButton<br/>
+ - Card<br/>
+ - CircleIndicator<br/>
+ - MultiplyIndicator<br/>
+ - RotateIndicator<br/>
+ - ScaleIndicator<br/>
+ - SequentIndicator<br/>
+ - SuddenIndicator<br/>
 
  
 
@@ -50,19 +50,19 @@ export default class App extends React.Component{
 ```
 Code explanation:
     You can specify style of the all of three button whatever you want.You can also specify child components of the buttons
-  You can also specify:
----direction  value which is movement direction for all buttons
----tension value 
----friction value
----delay value which is waiting time before animation
----middleButtonPixel value which is pixel that you want to move for middle button
----lastButtonPixel value which is pixel that you want to move for last button
----firstButtonChilds value which is components that you want set inside of the button
----secondButtonChilds value which is components that you want set inside of the button
----lastButtonChilds value which is components that you want set inside of the button
----firstButtonStyle value which is style of the button
----middleButtonStyle value which is style of the button
----lastButtonStyle  value which is style of the button
+  You can also specify:<br/>
+- direction  value which is movement direction for all buttons<br/>
+- tension value <br/>
+- friction value<br/>
+- delay value which is waiting time before animation<br/>
+- middleButtonPixel value which is pixel that you want to move for middle button<br/>
+- lastButtonPixel value which is pixel that you want to move for last button<br/>
+- firstButtonChilds value which is components that you want set inside of the button<br/>
+- secondButtonChilds value which is components that you want set inside of the button<br/>
+- lastButtonChilds value which is components that you want set inside of the button<br/>
+- firstButtonStyle value which is style of the button<br/>
+- middleButtonStyle value which is style of the button<br/>
+- lastButtonStyle  value which is style of the button<br/>
  
 |   prop   |     #default     |
 | :-----:   | :--------------: |
@@ -110,9 +110,9 @@ export default class App extends React.Component{
 ```
 
 Code explanation:
-    You can specify style of the title,subtitle,middletitle and endtitle whatever you want.You can also specify
----animationType  value which is can take `leftToRight` , `opacity` , `bothLeftToRightOpacity`, `bytheZaxis`, `bytheXaxis` and `bytheYaxis` values(for the animation, index value of the map function is necessary)
----sequentially value which takes index of the map function (necessary for the animation)
+    You can specify style of the title,subtitle,middletitle and endtitle whatever you want.You can also specify:<br/>
+- animationType  value which is can take `leftToRight` , `opacity` , `bothLeftToRightOpacity`, `bytheZaxis`, `bytheXaxis` and `bytheYaxis` values(for the animation, index value of the map function is necessary)<br/>
+- sequentially value which takes index of the map function (necessary for the animation)<br/>
 
 |   prop   |     #default     |
 | :-----:  | :--------------: |
@@ -152,11 +152,11 @@ export default class App extends React.Component{
  ```
 
 Code explanation:
-    You can specify style of the button whatever you want.You can also specify
----duration  value which is the complement time of the animation
----direction value which is used for direction of the animation such as to forward(with `false` value) or to upward(with `true` value)
----friction value is the effect of the animation
----delay value is the waiting time before the animation
+    You can specify style of the button whatever you want.You can also specify:<br/>
+- duration  value which is the complement time of the animation<br/>
+- direction value which is used for direction of the animation such as to forward(with `false` value) or to upward(with `true` value)<br/>
+- friction value is the effect of the animation<br/>
+- delay value is the waiting time before the animation<br/>
 
 
 |   prop   |     #default     |
@@ -190,10 +190,10 @@ export default class App extends React.Component{
 
  ```
 Code explanation:
-    You can specify style of the button whatever you want.You can also specify :
----duration  value which is the complement time of the animation
----repeat value which is repetition of the animation.If it is `true`, animation  playing continuously
----gone value is that when is true , button is not shown again
+    You can specify style of the button whatever you want.You can also specify :<br/>
+- duration  value which is the complement time of the animation<br/>
+- repeat value which is repetition of the animation.If it is `true`, animation  playing continuously<br/>
+- gone value is that when is true , button is not shown again<br/>
 
 
 |   prop   |     #default     |
@@ -227,13 +227,13 @@ export default class App extends React.Component{
 }
 
  ```
- Code explanation:
-    You can specify style of the button whatever you want.You can also specify :
----from_deg value which is beginning degree of the animation
----to_deg value which is last degree of the animation
----delay value is waiting time before the animation
----duration  value which is the complement time of the animation
----type value can be take three value which is `infinite`,`comeback`,`shake`
+ Code explanation:<br/>
+    You can specify style of the button whatever you want.You can also specify :<br/>
+- from_deg value which is beginning degree of the animation<br/>
+- to_deg value which is last degree of the animation<br/>
+- delay value is waiting time before the animation<br/>
+- duration  value which is the complement time of the animation<br/>
+- type value can be take three value which is `infinite`,`comeback`,`shake`<br/>
 
 
 |   prop   |     #default     |
@@ -261,17 +261,17 @@ export default class App extends React.Component{
                         style={{backgroundColor:"green",width:200,height:200}}
                         animationType="bothXYaxis"
                         duration={1000} 
-                        delay={0}
+                        />
       )
     }
 }
 
  ```
  Code explanation:
-    You can specify style of the button whatever you want.You can also specify :
----delay value is waiting time before the animation
----duration  value which is the complement time of the animation
----animationType value can be take three value which is `bothXYaxis`,`byTheYaxis`,`byTheXaxis`
+    You can specify style of the button whatever you want.You can also specify :<br/>
+- delay value is waiting time before the animation<br/>
+- duration  value which is the complement time of the animation<br/>
+- animationType value can be take three value which is `bothXYaxis`,`byTheYaxis`,`byTheXaxis`<br/>
 
 |   prop   |     #default     |
 | :-----:  | :--------------: |
@@ -293,8 +293,9 @@ export default class App extends React.Component{
   render() {
     return (
           <CircleIndicator  
-                        duration={1000} 
+                        color={["gray","blue","yellow","green"]}
                         delay={0}
+                        />
       )
     }
 }
@@ -321,7 +322,8 @@ export default class App extends React.Component{
     return (
           <MultiplyIndicator  
                         duration={1000} 
-                        delay={0}
+                        tension={40}
+                        />
       )
     }
 }
@@ -351,6 +353,7 @@ export default class App extends React.Component{
           <RotateIndicator  
                         duration={1000} 
                         delay={0}
+                        />
       )
     }
 }
@@ -375,8 +378,8 @@ export default class App extends React.Component{
   render() {
     return (
           <ScaleIndicator  
-                        duration={1000} 
-                        delay={0}
+                        tension={80} 
+                        />
       )
     }
 }
@@ -432,8 +435,7 @@ export default class App extends React.Component{
   render() {
     return (
           <SuddenIndicator  
-                        duration={1000} 
-                        delay={0}
+                       />
       )
     }
 }
