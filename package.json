@@ -1,0 +1,18 @@
+{
+  "name": "react-native-companim",
+  "version": "1.0.0",
+  "description": "Animated Components for React Native",
+  "main": "./src/index.js",
+  "keywords": [
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "animation",
+    "component",
+    "react-native-animation",
+    "react-native-component"
+  ],
+  "homepage": "https://react-native-elements.github.io/react-native-elements/",
+  "author": "Onurkan Bakırcı",
+  "license": "MIT"
+}

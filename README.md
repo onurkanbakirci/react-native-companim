@@ -5,26 +5,24 @@ Installation
 
  Components Animated
 
- ```
- MultiplyButton
- FadeButton
- RotateButton
- BounceButton
- ScaleButton
- Card
- CircleIndicator
- MultiplyIndicator
- RotateIndicator
- ScaleIndicator
- SequentIndicator
- SuddenIndicator
+ --MultiplyButton
+ --FadeButton
+ --RotateButton
+ --BounceButton
+ --ScaleButton
+ --Card
+ --CircleIndicator
+ --MultiplyIndicator
+ --RotateIndicator
+ --ScaleIndicator
+ --SequentIndicator
+ --SuddenIndicator
 
- ```
-
+ 
 
 Usage
 
-MultiplyButton
+## MultiplyButton
 
 
 ```
@@ -81,7 +79,8 @@ Code explanation:
 |middleButtonStyle| object|
 |lastButtonStyle|object|
 
-Card
+## Card
+
 ```
 import React from 'react'
 import {Card} from 'react-native-companim'
@@ -108,6 +107,8 @@ export default class App extends React.Component{
     }
 }
 
+```
+
 Code explanation:
     You can specify style of the title,subtitle,middletitle and endtitle whatever you want.You can also specify
 ---animationType  value which is can take `leftToRight` , `opacity` , `bothLeftToRightOpacity`, `bytheZaxis`, `bytheXaxis` and `bytheYaxis` values(for the animation, index value of the map function is necessary)
@@ -127,9 +128,9 @@ Code explanation:
 |image | none |
 
 
-```
 
-Bounce Button
+
+## Bounce Button
  ```
 
 import React from 'react'
@@ -149,6 +150,7 @@ export default class App extends React.Component{
 }
 
  ```
+
 Code explanation:
     You can specify style of the button whatever you want.You can also specify
 ---duration  value which is the complement time of the animation
@@ -167,7 +169,8 @@ Code explanation:
 
 
 
-Fade Button
+## Fade Button
+
  ```
 
 import React from 'react'
@@ -201,7 +204,8 @@ Code explanation:
 | style    |       object    |
 
 
-Roatate Button
+## Rotate Button
+
  ```
 
 import React from 'react'
@@ -242,7 +246,7 @@ export default class App extends React.Component{
 | style    |       object    |
 
 
-Scale Button
+## Scale Button
 
  ```
 
@@ -277,7 +281,7 @@ export default class App extends React.Component{
 | style    |       object    |
 
 
-CircleIndicator
+## CircleIndicator
 
  ```
 
@@ -304,7 +308,7 @@ export default class App extends React.Component{
 | color    |       ["gray","blue","yellow","green"] |
 
 
-MultiplyIndicator
+## MultiplyIndicator
 
 ```
 
@@ -333,7 +337,7 @@ export default class App extends React.Component{
 | color |        ["green","blue","yellow"] |
 
 
-RotateIndicator
+## RotateIndicator
 
 ```
 
@@ -353,13 +357,13 @@ export default class App extends React.Component{
 
  ```
 
- |   prop   |     #default     |
+|   prop   |     #default     |
 | :-----:  | :--------------: |
 |duration |   1000 |
 |delay |   0 |
 
 
-ScaleIndicator
+## ScaleIndicator
 
 ```
 
@@ -385,7 +389,7 @@ export default class App extends React.Component{
 |style |   object |
 
 
-Sequent Indicator
+## Sequent Indicator
 
 ```
 
@@ -416,7 +420,7 @@ export default class App extends React.Component{
 |middleStyle |   object |
 
 
-Sudden Indicator
+## Sudden Indicator
 
 ```
 
