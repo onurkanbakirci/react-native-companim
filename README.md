@@ -1,3 +1,9 @@
+![Indicators (1)](https://user-images.githubusercontent.com/50163185/83353444-4b5da080-a35b-11ea-82b5-dff740ad0ba2.gif)
+![20200531-165058-edited1](https://user-images.githubusercontent.com/50163185/83354066-69c59b00-a35f-11ea-860e-791c8210541e.gif)
+![20200531-170259-edited](https://user-images.githubusercontent.com/50163185/83354422-2c620d00-a361-11ea-9d94-1f449eb05aa8.gif)
+
+This lib contains many animated companents for more effective user experience. 
+
 ## Installation 
 
 `npm i react-native-companim` 
@@ -288,7 +294,6 @@ export default class App extends React.Component{
 
 ## CircleIndicator
 
-<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:166.54%;position:relative;"><iframe width="260" height="433" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/43gegw"></iframe></div><p><a href="https://imgflip.com/gif/43gegw">via Imgflip</a></p></div><br/>
 
  ```
 
